@@ -1,0 +1,27 @@
+{
+  "name": "shafeea.com",
+  "version": "1.0.0",
+  "description": "Website for Aishath Shafeeu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idamadam/shafeea.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idamadam/shafeea.com/issues"
+  },
+  "homepage": "https://github.com/idamadam/shafeea.com#readme",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
