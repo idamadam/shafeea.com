@@ -9,7 +9,11 @@ const globalStyles = {
         fontSize: "18px",
         letterSpacing: "0.5px",
         color: "#1B2830",
-        background: "#FDFDFD"
+        background: "#FDFDFD",
+        lineHeight: "1.5em",
+    },
+    h1: {
+        lineHeight: "1.5em",
     }
 }
 
