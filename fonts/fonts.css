@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'MV_Typewriter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('mvtyper.woff2') format('woff2'),
+         url('mvtyper.ttf') format('ttf');
+}
+  
+@font-face {
+    font-family: 'MV_Typewriter';
+    font-style: bold;
+    font-weight: 700;
+    src: url('mvtypebold.woff2') format('woff2'),
+         url('mvtypebold.ttf') format('ttf');
+}
