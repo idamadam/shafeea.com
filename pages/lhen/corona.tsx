@@ -3,7 +3,7 @@ import Lhen from "../../components/lhen";
 const TwoRows = ({ children }) => (
   <div
     css={{
-      "@media(min-width: 50ch)": {
+      "@media(min-width: 65ch)": {
         display: "grid",
         gridTemplateColumns: "1fr 1fr",
       },
