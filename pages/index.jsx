@@ -30,7 +30,7 @@ function HomePage() {
             <Head>
                 <title>Aishath Shafeeu | އައިޝަތު ޝަފީއު</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+                <meta httpEquiv="content-type" content="text/html; charset=utf-8"></meta>
             </Head>
             <Global styles={globalStyles} />
             <h1>ހާދަރަނގަޅޭ ޝުކުރިޔާ!</h1>
