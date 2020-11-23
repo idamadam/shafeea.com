@@ -21,7 +21,7 @@
   "homepage": "https://github.com/idamadam/shafeea.com#readme",
   "dependencies": {
     "@emotion/core": "^10.0.35",
-    "next": "^9.5.5",
+    "next": "^10.0.2",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
