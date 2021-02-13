@@ -1,17 +1,9 @@
-import Lhen from "../../components/lhen";
+import Lhen, { StaggeredLines } from "../../components/lhen";
 
 const Lhafathuge = () => (
   <Lhen>
     <h1>ޅަފަތުގެ ހިޔާ</h1>
-    <div
-      css={{
-        "@media(min-width: 50ch)": {
-          "p:nth-child(even)": {
-            textAlign: "left",
-          },
-        },
-      }}
-    >
+    <StaggeredLines>
       <p>ހުވަފެނެއް ފަދައިން ފެނޭ ޅަފަތުގައި ލިބެވުނު އުފާ</p>
       <p>ހުވަފެނެއް ނޫނަސް އެއީ ވީ ތަޖުރިބާ އެއް ދުށް އުފާ</p>
       <p>އެކުގަ ބޮޑުވީ ކައިރި ކައިރީ ދައްތަމެން ނާ ކޮއްކޮ މެން</p>
@@ -30,7 +22,7 @@ const Lhafathuge = () => (
       <p>މަންމަ ވީ ސަމުގާ އަށޭ ދައްކަމުން ހެޔޮ މަގު އުފާ</p>
       <p>މިފަދަ މަތިވެރި ވީ އުފާ ދެއްވީ އެ ލޮބުވެތި ކާ ބަފައިން</p>
       <p>މިފަދަ ހެޔޮ ހިޔަލެއް ދެމާހޭ ކުރި މިއޮތް ޖީލަށް އުފާ</p>
-    </div>
+    </StaggeredLines>
   </Lhen>
 );
 

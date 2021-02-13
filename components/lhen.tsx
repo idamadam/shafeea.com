@@ -9,7 +9,23 @@ const pageStyles = {
   padding: "2em",
 };
 
-function Lhen({ children }) {
+export function StaggeredLines({ children}) {
+  return (
+    <div
+      css={{
+        "@media(min-width: 50ch)": {
+          "p:nth-child(even)": {
+            textAlign: "left",
+          },
+        },
+      }}
+    >
+      {children}
+    </div>
+  );
+}
+
+export default function Lhen({ children }) {
   return (
     <div css={pageStyles}>
       <Head>
@@ -29,5 +45,3 @@ function Lhen({ children }) {
     </div>
   );
 }
-
-export default Lhen;
